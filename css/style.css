@@ -1,0 +1,85 @@
+#menu {
+    background: rgba(18, 18, 18, 0.5);
+    color: #e3e3e2;
+    display: flex;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 1.5rem 2rem;
+}
+
+#menu li {
+    color: #e3e3e2;
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: -5px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #e3e3e2;
+}
+
+#menu a:hover {
+    color: #FFDE03;
+}
+
+#menu .img-fluid {
+    margin: 1rem 2rem
+}
+
+body {
+    background: url(../img/road_night_lights_88183_1366x768.png) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.title h1 {
+    color: #e3e3e2;
+}
+
+.title p {
+    color: #FFDE03;
+    margin-left: 20rem;
+    margin-top: -1rem;
+}
+
+.row {
+    margin-top: 25rem;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -10rem;
+    margin-bottom: 12rem;
+}
+
+.con {
+    background: url(../img/backgroud.png) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 3rem 0rem;
+}
+
+.col {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+    margin: 5rem;
+}
+
+.con h1 {
+    color: #FFDE03;
+    text-align: center;
+}
+
+.con p {
+    color: #e3e3e2;
+    text-align: center;
+}

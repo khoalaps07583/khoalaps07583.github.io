@@ -1,85 +1,76 @@
-#menu {
-    background: rgba(18, 18, 18, 0.5);
-    color: #e3e3e2;
-    display: flex;
+.box1 {
+    border: 12px solid #0a0a0a66;
 }
 
-#menu ul {
-    list-style-type: none;
-    margin: 1.5rem 2rem;
+.abc .box1 {
+    position: relative;
 }
 
-#menu li {
-    color: #e3e3e2;
+.abc .box1 .nut1 {
     display: inline-block;
-    width: 120px;
-    height: 40px;
-    line-height: 40px;
-    margin-left: -5px;
+    background: #343a40;
+    color: #FFDE03;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-size: 2rem;
+    top: 28rem;
+    left: 2rem;
 }
 
-#menu a {
+.abc .box1 .nut2 {
+    display: inline-block;
+    background: #343a40;
+    color: #FFDE03;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-size: 2rem;
+    top: 28rem;
+    right: 2rem;
+}
+
+a {
+    color: white;
     text-decoration: none;
-    color: #e3e3e2;
 }
 
-#menu a:hover {
-    color: #FFDE03;
+a:hover {
+    color: red;
+    text-decoration: none;
 }
 
-#menu .img-fluid {
-    margin: 1rem 2rem
+h3 {
+    color: red;
 }
 
-body {
-    background: url(../img/road_night_lights_88183_1366x768.png) no-repeat center center;
-    background-size: cover;
-    background-attachment: fixed;
+h4 {
+    text-decoration: line-through;
 }
 
-.title h1 {
-    color: #e3e3e2;
+.icon {
+    display: inline-block;
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    font-size: 14px;
 }
 
-.title p {
-    color: #FFDE03;
-    margin-left: 20rem;
-    margin-top: -1rem;
-}
-
-.row {
-    margin-top: 25rem;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -10rem;
-    margin-bottom: 12rem;
-}
-
-.con {
-    background: url(../img/backgroud.png) no-repeat center center;
-    background-size: cover;
-    background-attachment: fixed;
-    margin: 3rem 0rem;
-}
-
-.col {
-    -ms-flex-preferred-size: 0;
-    flex-basis: 0;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    max-width: 100%;
-    margin: 5rem;
-}
-
-.con h1 {
-    color: #FFDE03;
+.buy {
+    position: absolute;
+    border: 4px solid red;
+    border-radius: 50%;
+    background: red;
     text-align: center;
+    align-items: center;
+    top: 15rem;
+    left: 12rem;
+    display: none;
+    font-size: 38px;
+    padding: 1rem;
+    color: yellow;
 }
 
-.con p {
-    color: #e3e3e2;
-    text-align: center;
+.box1:hover .buy {
+    display: block
 }

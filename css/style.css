@@ -1,76 +1,145 @@
-.box1 {
-    border: 12px solid #0a0a0a66;
-}
-
-.abc .box1 {
-    position: relative;
-}
-
-.abc .box1 .nut1 {
-    display: inline-block;
-    background: #343a40;
-    color: #FFDE03;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    font-size: 2rem;
-    top: 15rem;
-    left: 2rem;
-}
-
-.abc .box1 .nut2 {
-    display: inline-block;
-    background: #343a40;
-    color: #FFDE03;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    font-size: 2rem;
-    top: 15rem;
-    right: 2rem;
-}
-
-a {
-    color: white;
-    text-decoration: none;
-}
-
-a:hover {
-    color: red;
-    text-decoration: none;
-}
-
-h3 {
-    color: red;
-}
-
-h4 {
-    text-decoration: line-through;
-}
-
-.icon {
-    display: inline-block;
-    position: absolute;
-    bottom: 1rem;
-    right: 1rem;
-    font-size: 14px;
-}
-
-.buy {
-    position: absolute;
-    border: 4px solid red;
-    border-radius: 50%;
-    background: red;
-    text-align: center;
-    align-items: center;
-    top: 15rem;
-    left: 12rem;
-    display: none;
-    font-size: 38px;
-    padding: 1rem;
-    color: yellow;
-}
-
-.box1:hover .buy {
-    display: block
-}
+    body {
+        background: url(../img/road_night_lights_88183_1366x768.jpg) no-repeat center center;
+        background-attachment: fixed;
+        background-size: cover;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .menu {
+        list-style-type: none;
+        text-align: right;
+        padding: 1rem 1.5rem;
+    }
+    
+    .menu li {
+        width: auto;
+        padding: 5px;
+    }
+    
+    .menu a {
+        text-decoration: none;
+        color: white;
+        font-weight: 18px;
+        display: block;
+    }
+    
+    .menu a:hover {
+        color: #ffde03;
+    }
+    
+    .down li {
+        width: auto;
+        padding: 5px
+    }
+    
+    .down a {
+        text-decoration: none;
+        color: white;
+        font-weight: 18px;
+        display: block;
+    }
+    
+    .down a:hover {
+        color: #ffde03;
+    }
+    
+    .menu .down {
+        display: none
+    }
+    
+    .menu li:hover .down {
+        display: block;
+    }
+    
+    .home {
+        min-height: 100vh;
+    }
+    
+    .text {
+        text-align: center;
+        align-items: center;
+        color: #e3e3e2;
+        margin-top: 15rem;
+    }
+    
+    .text .name {
+        font-size: 20px;
+        margin: 0px;
+        color: white;
+    }
+    
+    .text .job {
+        font-size: 38px;
+        color: #ffde03;
+    }
+    
+    .about {
+        min-height: 100vh;
+        text-align: center;
+        align-items: center;
+        background: url(../img/backgroud.png);
+        color: white;
+        max-width: 100%;
+    }
+    
+    h1 {
+        padding: 3rem;
+        color: #ffde03;
+    }
+    
+    .hinh {
+        border: 3px solid #ffde03;
+        border-radius: 50%;
+    }
+    
+    .me {
+        margin: 1rem 0;
+    }
+    
+    .gach {
+        background: white
+    }
+    
+    h2 {
+        color: #ffde03
+    }
+    
+    .xyz {
+        font-size: 12px;
+        margin-top: -0.5rem;
+    }
+    
+    .asd {
+        color: #a1999998;
+    }
+    
+    .contact {
+        text-align: center;
+        align-items: center;
+        margin-top: 0rem;
+        background: url(../img/Rectangle\ 1.png) no-repeat center center;
+        min-height: 100vh;
+    }
+    
+    .zxc {
+        color: #ffde03;
+    }
+    
+    .img-fluid {
+        border: none;
+        border-radius: none;
+        margin: 5rem;
+    }
+    
+    .momo {
+        color: whitesmoke;
+    }
+    
+    .end {
+        background: black;
+        text-align: center;
+        align-items: center;
+        margin-top: -1rem;
+        color: white;
+        font-size: 10px;
+    }
